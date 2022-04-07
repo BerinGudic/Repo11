@@ -1,8 +1,9 @@
 var monitorsListArray = ["Apple", "Peach", "Berry"];
-function myMonitorsFunction() {
+function myMonitorsFunction(arr) {
     var monitorsList = [];
-    for (i = 0; i < monitorsListArray.length; i++) {
-        monitorsList.push([monitorsListArray[i], i + 1]);
+    var arr = monitorsListArray;
+    for (i = 0; i < arr.length; i++) {
+        monitorsList.push([arr[i], i + 1]);
     }
     return monitorsList;
 }
