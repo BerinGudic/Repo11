@@ -1,9 +1,9 @@
 function largestNumFromArr(arr) {
     var maxNumArray = [0,0,0,0];
-    for(var arrayIndex = 0; arrayIndex < arr.length; arrayIndex++) {
-     for(var subArrayIndex = 0; subArrayIndex < arr[arrayIndex].length; subArrayIndex++) {
-        if(arr[arrayIndex][subArrayIndex] > maxNumArray[arrayIndex]) {         
-           maxNumArray[arrayIndex] = arr[arrayIndex][subArrayIndex];
+    for(var i = 0; i < arr.length; i++) {
+     for(var  j = 0; j < arr[i].length; j++) {
+        if(arr[i][j] > maxNumArray[i]) {         
+           maxNumArray[i] = arr[i][j];
          }
      }
   }
