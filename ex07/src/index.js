@@ -8,7 +8,7 @@ function multiplyArrayFunction(myArray) {
     }
   }
   var arr = [];
-  arr.push(sum, product);
+  arr.push(product, sum);
   return arr;
 }
 
